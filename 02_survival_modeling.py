@@ -40,7 +40,7 @@ cph = CoxPHFitter()
 cph.fit(
     df_modeling, 
     duration_col='months_to_event', 
-    event_col='default_event'
+    event_col='default_event',
     show_progress=True
 )
 
